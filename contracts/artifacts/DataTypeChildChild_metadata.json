@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "FirstEvent",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "accessParent1Variable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "accessParentVariable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "firstFunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DataTypeChildChild.sol": "DataTypeChildChild"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DataType.sol": {
+			"keccak256": "0x1105ad4c60400b99832ef55c4ce614eb7fbda91cc747b2f95992157fc0b22386",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9742b5e382eda3a18dfc2a898fb501e49c4cb6fc95a02857d433b3a0ed67f811",
+				"dweb:/ipfs/Qmch1BqMidXyqG2VvNiK2KPZJdAtoBccDyX7MoCu7qmAXq"
+			]
+		},
+		"contracts/DataTypeChild.sol": {
+			"keccak256": "0xa8d76e920a6a7f155ec7df8a10d6ffcefd5eee726571d3bd9fb0a7787803d8bd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cf9e4a176a5bd5dadd43f8876239f079af87c21911f5881ea9dd6a46cc8cfb00",
+				"dweb:/ipfs/QmaaiEJnocRafeXjnQ8j87SAPExX3Hcvw4G46rKb3fb8U2"
+			]
+		},
+		"contracts/DataTypeChildChild.sol": {
+			"keccak256": "0x0cd83f5a87bac56aef468ad3348fa0328137f0487a75c545d1993945d009bdc3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d88fdd62c4fa6d87b6d92cfad36e5ab43f20ba69b275a295399539934085ccd2",
+				"dweb:/ipfs/Qmceos9b3xju26ZYC2Us1z4n1f6AVH93T3wH9pngKAaFz7"
+			]
+		}
+	},
+	"version": 1
+}
