@@ -12,6 +12,7 @@
 <img src="https://img.shields.io/badge/-WSL-brown">
 <img src="https://img.shields.io/badge/-Ubuntu%2020.04.4%20LTS-orange">
 <img src="https://img.shields.io/badge/-JetBrains-blue">
+<img src="https://img.shields.io/badge/-Remix-yellow">
 <img src="https://img.shields.io/badge/License-not%20specified-brightgreen">
 </p>
 
